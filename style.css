@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020A18;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #09111E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 80px;
+}
+
+.naw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
+}
+
+.con {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.l1 {
+    font-family: Open Sans;
+    font-size: 22.55px;
+    font-weight: 600;
+    line-height: 30.7px;
+    cursor: pointer;
+    width: 264px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3A68B8;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 0.922);
+}
+
+.btn1 {
+    width: Hug (142px)px;
+    height: Hug (52px)px;
+    top: 24px;
+    left: 1421px;
+    padding: 15px 30px 15px 30px;
+    gap: 10px;
+    border-radius: 5px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    background: #3A68B8;
+    border: none;
+
+}
+
+.right-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.hp1 {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3A68B8;
+
+}
+
+header {
+    margin-top: 100px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+
+.hh1 {
+    font-family: Open Sans;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 71.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+
+}
+
+.rasm {
+    width: 400px;
+}
+
+.se1 {
+    background-color: #020A18;
+}
+
+.hp2 {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffffc5;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.btnh1 {
+    width: 170px;
+    height: 57px;
+    border-radius: 5px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    border: none;
+    background: #3A68B8;
+
+}
+
+.header1 {
+    width: 500px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+.h2h1 {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.Gavsiddin {
+    margin-top: 100px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+
+.se2 {
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+
+
+.con2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    text-align: center;
+    width: 360px;
+    height: 390px;
+    background-color: #0F1624;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.card_img {
+    width: 98px;
+    text-align: center;
+}
+
+.card_h3 {
+    margin-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31.25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffffe6;
+
+}
+
+.card_p {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffffc5;
+}
+
+.h3h1 {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.h3p1 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 0.713);
+    margin-top: 20px;
+}
+
+.h3u4 {
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 17.71px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 220px;
+    color: rgba(255, 255, 255, 0.74);
+    margin-top: 20px;
+}
+
+.utu {
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.71px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 150px;
+}
+
+.opo {
+    width: 200px;
+    font-family: Circular Std;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.24px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-top: 20px;
+}
+.hush{
+    font-family: Circular Std;
+font-size: 14px;
+margin-top: 20px;
+font-weight: 450;
+line-height: 17.71px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 0.743);
+}
