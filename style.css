@@ -321,7 +321,6 @@ header {
 
 .footer {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     gap: 30px;
     margin-bottom: 150px;
@@ -338,14 +337,138 @@ header {
     color: white;
     margin-top: 20px;
 }
-.hush{
+
+.hush {
     font-family: Circular Std;
-font-size: 14px;
-margin-top: 20px;
-font-weight: 450;
-line-height: 17.71px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: rgba(255, 255, 255, 0.743);
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 450;
+    line-height: 17.71px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 0.743);
+}
+
+@media (max-width: 768px) {
+    nav .naw {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-nav {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    ul li a {
+        font-size: 14px;
+    }
+
+    .right-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .header2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .rasm {
+        width: 300px;
+    }
+
+    .btnh1 {
+        width: 100%;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav .naw {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .left-nav {
+        gap: 10px;
+    }
+
+    ul {
+        gap: 10px;
+    }
+
+    ul li a {
+        font-size: 12px;
+    }
+
+    .btn1 {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .header1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hh1 {
+        font-size: 35px;
+    }
+
+    .hp1,
+    .hp2 {
+        font-size: 14px;
+    }
+
+    .btnh1 {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer .col {
+        margin-bottom: 20px;
+    }
 }
